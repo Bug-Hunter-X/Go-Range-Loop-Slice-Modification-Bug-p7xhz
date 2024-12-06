@@ -1,0 +1,2 @@
+# Go Range Loop Slice Modification Bug
+This repository demonstrates a common but subtle bug in Go related to using the `range` keyword with slices.  Modifying the slice during iteration can lead to unexpected results. The example shows how the `range` keyword creates copies of the indices, so changing the underlying slice won't affect the original slice within the loop.
